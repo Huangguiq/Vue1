@@ -1,0 +1,7 @@
+image: node:lastest
+publish_package:
+  stage: deploy
+  script:
+    - npm install
+    - npm run build
+
